@@ -22,6 +22,9 @@ class KritikSaranResource extends Resource
     protected static ?string $model = Kritik_saran::class;
     protected static ?string $navigationIcon = 'heroicon-o-inbox';
     protected static ?string $navigationLabel = 'Kritik Saran';
+    protected static ?string $pluralModelLabel = 'Kritik Saran'; // label pada title halaman list (opsional)
+
+    protected static ?string $modelLabel = 'Kritik Saran';
     public static function getModelLabel(): string
     {
         return 'Kritik Saran';

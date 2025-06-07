@@ -27,6 +27,9 @@ class TransaksiResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-currency-dollar';
     protected static ?string $navigationLabel = 'Status Transaksi';
+    protected static ?string $pluralModelLabel = 'Status Transaksi'; // label pada title halaman list (opsional)
+
+    protected static ?string $modelLabel = 'Status Transaksi'; // label tunggal (opsional)
     public static function getModelLabel(): string
     {
         return 'Transaksi';

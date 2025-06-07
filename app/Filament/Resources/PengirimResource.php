@@ -19,7 +19,12 @@ class PengirimResource extends Resource
     protected static ?string $model = Pengirim::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-users';
-    protected static ?string $navigationLabel = 'User';
+
+    protected static ?string $navigationLabel = 'User'; // label sidebar
+
+    protected static ?string $pluralModelLabel = 'User'; // label pada title halaman list (opsional)
+
+    protected static ?string $modelLabel = 'User'; // label tunggal (opsional)
 
     public static function getModelLabel(): string
     {

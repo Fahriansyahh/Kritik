@@ -101,12 +101,16 @@
                 </div>
             </div>
 
-            <div class="text-right">
+            <div class="flex justify-end space-x-4">
+                <a href="/" class="px-6 py-2 bg-gray-300 hover:bg-gray-400 text-gray-800 rounded-md font-medium">
+                    Kembali
+                </a>
                 <button type="submit"
                     class="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-medium">
                     Kirim Semua
                 </button>
             </div>
+
         </form>
     </div>
 </body>

@@ -25,6 +25,9 @@ class MetodePembayaranResource extends Resource
     protected static ?string $navigationIcon = 'heroicon-o-currency-dollar';
 
     protected static ?string $navigationLabel = 'Metode Pembayaran';
+    protected static ?string $pluralModelLabel = 'Metode Pembayaran'; // label pada title halaman list (opsional)
+
+    protected static ?string $modelLabel = 'Metode Pembayaran';
     public static function getModelLabel(): string
     {
         return 'Metode Pembayaran';
